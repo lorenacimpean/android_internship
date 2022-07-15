@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("intParam", 0)
             resultLauncher.launch(intent)
         }
-        resultView = findViewById<View>(R.id.result) as TextView
+        resultView = findViewById<View>(R.id.resultView) as TextView
         stringParamView = findViewById<View>(R.id.string_from_child) as TextView
         intParamView = findViewById<View>(R.id.int_from_child) as TextView
 
