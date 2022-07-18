@@ -10,6 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IntroductionApp">
         <activity
+            android:name=".ActivityC"
+            android:exported="false"
+            android:label="@string/title_activity_c"
+            android:theme="@style/Theme.IntroductionApp.NoActionBar" />
+        <activity
+            android:name=".ActivityB"
+            android:exported="false"
+            android:label="@string/title_activity_b"
+            android:theme="@style/Theme.IntroductionApp.NoActionBar" />
+        <activity
+            android:name=".ActivityA"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
