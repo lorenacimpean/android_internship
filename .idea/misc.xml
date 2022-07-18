@@ -3,8 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../Library/Android/sdk/platforms/android-31/data/res/drawable/ic_lock_lock.xml" value="0.1785" />
+        <entry key="app/src/main/res/drawable/rounded_corner_button.xml" value="0.1785" />
+        <entry key="app/src/main/res/drawable/rounded_corners.xml" value="0.1775" />
+        <entry key="app/src/main/res/drawable/username_icon.xml" value="0.1785" />
+        <entry key="app/src/main/res/layout-w1240dp/activity_login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout-w936dp/activity_login.xml" value="0.103515625" />
         <entry key="app/src/main/res/layout/activity_c.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/custom_appbar.xml" value="0.17805755395683454" />
       </map>
     </option>
   </component>

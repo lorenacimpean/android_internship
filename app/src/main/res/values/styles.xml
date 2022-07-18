@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/deep_blue</item>
+        <item name="colorPrimaryDark">@color/light_turquoise</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="font">@font/caviar_dreams</item>
+    </style>
+</resources>
