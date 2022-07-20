@@ -8,6 +8,7 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.activity.result.contract.ActivityResultContracts.StartActivityForResult
 import androidx.appcompat.app.AppCompatActivity
+import com.example.introductionapp.ui.login.LoginActivity
 
 
 class MainActivity : AppCompatActivity() {
@@ -39,6 +40,13 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("intParam", 0)
             resultLauncher.launch(intent)
         }
+
+        val loginButton: Button = findViewById<View>(R.id.login) as Button
+        loginButton.setOnClickListener {
+            val intent = Intent(applicationContext, LoginActivity::class.java)
+            startActivity(intent)
+        }
+
         resultView = findViewById<View>(R.id.resultView) as TextView
         stringParamView = findViewById<View>(R.id.string_from_child) as TextView
         intParamView = findViewById<View>(R.id.int_from_child) as TextView
